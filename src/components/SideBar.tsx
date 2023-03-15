@@ -1,7 +1,7 @@
 import { Button, Classes, Icon, InputGroup } from "@blueprintjs/core";
 import { useRef } from "react";
 import { NavLink, useSearchParams } from "react-router-dom";
-import "../App.css";
+import "../styles/App.css";
 import { DocumentType } from "../store/models/Document";
 
 type SideBarProps = {

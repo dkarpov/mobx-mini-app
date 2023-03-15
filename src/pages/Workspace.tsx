@@ -2,7 +2,7 @@ import { observer } from "mobx-react-lite";
 import { useParams, useSearchParams } from "react-router-dom";
 import { SideBar } from "../components/SideBar";
 import { store } from "../store/store";
-import DocumentView from "../views/DocumentView";
+import DocumentView from "../components/DocumentView";
 
 import { Button, NonIdealState } from "@blueprintjs/core";
 import { useEffect } from "react";

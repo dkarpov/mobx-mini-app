@@ -2,8 +2,8 @@ import { Button } from "@blueprintjs/core";
 import { toJS } from "mobx";
 import { observer } from "mobx-react-lite";
 import { v4 as uuid } from "uuid";
-import "../App.css";
-import DocumentValuePair from "../components/DocumentValue";
+import "../styles/App.css";
+import DocumentValuePair from "./DocumentValue";
 import { DocumentValueType } from "../store/models/Document";
 
 type Props = {

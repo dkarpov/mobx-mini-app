@@ -1,7 +1,7 @@
 import React from "react";
 import { InputGroup, Button, Intent } from "@blueprintjs/core";
 import { useNavigate } from "react-router-dom";
-import "../App.css";
+import "../styles/App.css";
 
 export const Home = () => {
   const input = React.useRef<HTMLInputElement>(null);

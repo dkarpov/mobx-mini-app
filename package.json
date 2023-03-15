@@ -12,6 +12,10 @@
     "@types/node": "^16.18.14",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "mnemonist": "^0.39.1",
+    "prettier": "^2.6.2",
+    "socket.io": "^4.5.1",
+    "ts-node": "^10.7.0",
     "mobx": "^6.8.0",
     "mobx-react-lite": "^3.4.3",
     "mobx-state-tree": "^5.1.8",
@@ -28,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-server": "ts-node src/server.ts"
   },
   "eslintConfig": {
     "extends": [
